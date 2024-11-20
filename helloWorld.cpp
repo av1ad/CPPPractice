@@ -1,9 +1,8 @@
 #include <iostream>
-using namespace std;
 
 int main()
 {
-    std::cout << "Meow ^_^" << std::endl;
-    std::cout << "Miao >_<";
+    std::cout << "Meow ^_^" << '\n';
+    std::cout << "Miao >_<" << '\n';
     return 0;
 }
