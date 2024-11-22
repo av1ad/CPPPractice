@@ -8,6 +8,9 @@ int main()
     float secondNumber = 10;
     float sum = firstNumber + secondNumber;
 
+    std::string name = "Aviad";
+    std::cout << name << "\n";
+
     std::cout << firstNumber << '\n';
     std::cout << secondNumber  << '\n';
     std::cout << "Sum of " << firstNumber << " + " << secondNumber << " is " << sum << '\n';
