@@ -5,17 +5,13 @@
 int main()
 {
 
-    float firstNumber = 11.0124;
-    const float SECOND_NUMBER = 10;
-    float sum = firstNumber + SECOND_NUMBER;
+    double firstNumber;
+    double secondNumber;
 
-    std::string name;
-    std::cout << "Enter name: ";
-    std::cin >> name;
-    std::cout << "Hello! " << name;
-
-    std::cout << firstNumber << '\n';
-    std::cout << SECOND_NUMBER  << '\n';
-    std::cout << "Sum of " << firstNumber << " + " << SECOND_NUMBER << " is " << sum << '\n';
+    std::cout << "Enter first number: ";
+    std::cin >> firstNumber;
+    std::cout << "Enter second number: ";
+    std::cin >> secondNumber;
+    std::cout << "The sum of " << firstNumber << " + " << secondNumber << " is " << firstNumber + secondNumber << std::endl;
     return 0;
 }

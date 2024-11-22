@@ -1,19 +1,22 @@
 #include <iostream>
+#include <vector>
 
+typedef std::string text_t; // using is better than using a typedef
 namespace first
 {
-    std::string meow = "Meow ^_^";
+    text_t meow = "Meow ^_^";
 }
 
 namespace second
 {
-    std::string meow = "Miao >_<";
+    text_t meow = "Miao >_<";
 }
+
 
 int main()
 {
 
-    std::string meow = "woof";
+    text_t meow = "woof";
 
     std::cout << first::meow << '\n';
     std::cout << second::meow << '\n';
