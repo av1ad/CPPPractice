@@ -1,18 +1,21 @@
 #include <iostream>
 #include <cmath>
+#include <string>
 
 int main()
 {
 
     float firstNumber = 11.0124;
-    float secondNumber = 10;
-    float sum = firstNumber + secondNumber;
+    const float SECOND_NUMBER = 10;
+    float sum = firstNumber + SECOND_NUMBER;
 
-    std::string name = "Aviad";
-    std::cout << name << "\n";
+    std::string name;
+    std::cout << "Enter name: ";
+    std::cin >> name;
+    std::cout << "Hello! " << name;
 
     std::cout << firstNumber << '\n';
-    std::cout << secondNumber  << '\n';
-    std::cout << "Sum of " << firstNumber << " + " << secondNumber << " is " << sum << '\n';
+    std::cout << SECOND_NUMBER  << '\n';
+    std::cout << "Sum of " << firstNumber << " + " << SECOND_NUMBER << " is " << sum << '\n';
     return 0;
 }
