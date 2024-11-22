@@ -1,15 +1,14 @@
 #include <iostream>
 
-
-namespace first{
+namespace first
+{
     std::string meow = "Meow ^_^";
 }
 
-namespace second{
+namespace second
+{
     std::string meow = "Miao >_<";
 }
-
-
 
 int main()
 {
