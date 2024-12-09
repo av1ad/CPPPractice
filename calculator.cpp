@@ -17,19 +17,31 @@ int main()
     std::cout << "Enter second number: ";
     std::cin >> secondNumber;
 
-    if(operation == "+") {
+    if (operation == "+")
+    {
         std::cout << "The sum of " << firstNumber << " + " << secondNumber << " is " << firstNumber + secondNumber << std::endl;
-    } else if (operation == "-") {
+    }
+    else if (operation == "-")
+    {
         std::cout << "The sum of " << firstNumber << " - " << secondNumber << " is " << firstNumber - secondNumber << std::endl;
-    } else if (operation == "/") {
-        if(firstNumber == 0 || secondNumber == 0) {
+    }
+    else if (operation == "/")
+    {
+        if (firstNumber == 0 || secondNumber == 0)
+        {
             std::cout << "You cannot divide by 0";
-        } else {
+        }
+        else
+        {
             std::cout << "The sum of " << firstNumber << " / " << secondNumber << " is " << firstNumber / secondNumber << std::endl;
         }
-    } else if (operation == "*") {
+    }
+    else if (operation == "*")
+    {
         std::cout << "The sum of " << firstNumber << " * " << secondNumber << " is " << firstNumber * secondNumber << std::endl;
-    } else {
+    }
+    else
+    {
         std::cout << "This is not a valid operation, please input a valid operation next time.";
     }
     return 0;
